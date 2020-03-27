@@ -1,18 +1,5 @@
 <template>
   <q-layout view="lHh Lpr lFf">
-    <q-header elevated>
-      <q-toolbar class="col-4 bg-primary-500 shadow-1">
-        <q-toolbar-title>Title</q-toolbar-title>
-        <q-btn flat round dense icon="search" />
-        <q-space />
-      </q-toolbar>
-      <q-toolbar class="col bg-primary-500 shadow-1">
-        <q-toolbar-title>Title</q-toolbar-title>
-        <q-btn flat round dense icon="search" />
-        <q-space />
-      </q-toolbar>
-    </q-header>
-
     <q-drawer
       v-model="drawer"
       show-if-above
@@ -25,9 +12,9 @@
           <q-item class="color-white q-py-md" clickable v-ripple>
             <q-item-section>
               <div align="center">
-                <q-icon name="inbox" size="26px" />
+                <q-icon name="inbox" size="22px" />
                 <br />
-                <span>name</span>
+                <span style="font-size:14px;">Title</span>
               </div>
             </q-item-section>
           </q-item>
@@ -35,9 +22,9 @@
           <q-item class="color-white q-py-md" clickable v-ripple>
             <q-item-section>
               <div align="center">
-                <q-icon name="inbox" size="26px" />
+                <q-icon name="inbox" size="22px" />
                 <br />
-                <span>name</span>
+                <span style="font-size:14px;">Title</span>
               </div>
             </q-item-section>
           </q-item>
@@ -45,9 +32,9 @@
           <q-item class="color-white q-py-md" clickable v-ripple>
             <q-item-section>
               <div align="center">
-                <q-icon name="inbox" size="26px" />
+                <q-icon name="inbox" size="22px" />
                 <br />
-                <span>name</span>
+                <span style="font-size:14px;">Title</span>
               </div>
             </q-item-section>
           </q-item>
@@ -57,9 +44,9 @@
           <q-item class="color-white q-py-md" clickable v-ripple>
             <q-item-section>
               <div align="center">
-                <q-icon name="inbox" size="26px" />
+                <q-icon name="inbox" size="22px" />
                 <br />
-                <span>name</span>
+                <span style="font-size:14px;">Title</span>
               </div>
             </q-item-section>
           </q-item>
